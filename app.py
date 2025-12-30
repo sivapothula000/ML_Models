@@ -20,14 +20,14 @@ def house_price_prediction(input_data):
 
 def main():
     st.title("House Price Prediction")
-    Longitude=st.text_input("Longitude Location")
-    Latitude=st.text_input("Latitude Location")
-    HouseAge=st.text_input("Median House Age")
-    TotalRooms=st.text_input("Total number of rooms")
-    TotalBedRooms=st.text_input("Total number of Bed Rooms")
-    Population=st.text_input("Population of the District")
-    AveOccup=st.text_input("Total house occupancy")
-    MedInc=st.text_input("Median Income of the District")
+    Longitude=st.text_input("Longitude Location",placeholder="e.g. 34.05")
+    Latitude=st.text_input("Latitude Location",placeholder="e.g. 37.28")
+    HouseAge=st.text_input("Median House Age",placeholder="e.g. 25")
+    TotalRooms=st.text_input("Total number of rooms",placeholder="e.g. 52")
+    TotalBedRooms=st.text_input("Total number of Bed Rooms",placeholder="e.g. 12")
+    Population=st.text_input("Population of the District",placeholder="e.g. 3500")
+    AveOccup=st.text_input("Total house occupancy",placeholder="e.g. 200")
+    MedInc=st.text_input("Median Income of the District",placeholder="e.g. 1475.05")
 
     prediction =''
     #Code for Prediction using input features
