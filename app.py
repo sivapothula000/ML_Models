@@ -19,7 +19,7 @@ def house_price_prediction(input_data):
     return prediction[0]
 
 def main():
-    st.title("Siva's House Price Prediction")
+    st.title("Siva's House Price Prediction App")
     Longitude=st.text_input("Longitude Location",placeholder="e.g. 34.05")
     Latitude=st.text_input("Latitude Location",placeholder="e.g. 37.28")
     HouseAge=st.text_input("Median House Age",placeholder="e.g. 25")
@@ -49,4 +49,5 @@ def main():
 if __name__=='__main__':
 
   main()
+
 
