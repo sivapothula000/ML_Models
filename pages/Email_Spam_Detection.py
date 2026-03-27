@@ -4,7 +4,7 @@ from gtts import gTTS
 
 # Load model
 model = pickle.load(open('models\spam.pkl', 'rb'))
-cv = pickle.load(open('models\vectorizer.pkl', 'rb'))
+cv = pickle.load(open('models\\vectorizer.pkl', 'rb'))
 
 def speak(text):
     tts = gTTS(text=text, lang='en')
